@@ -10293,7 +10293,6 @@ fn run(config: Config) -&gt; Result&lt;(), Box&lt;dyn Error&gt;&gt; {
 <p>Rust는 우리 코드가 오류가 있음을 나타내는 <code>Result</code> 값을 무시한다는 것을 알려줍니다. 우리는 
 에러가 있는지 아닌지를 확인하지 않고 있고, 컴파일러는 우리에게 아마도 여기에 에러 처리 코드를 
 작성해야 한다는 것을 상기 시켜줄 것입니다! 당장 바로잡아 봅시다. </p>
-<p>Rust는 우리 코드가 오류가 있음을 나타내는 'Result'값을 무시한다는 것을 알려줍니다. 우리는 에러가 있는지 아닌지를 확인하지 않고 있고, 컴파일러는 아마도 여기에 에러 처리 코드를 가지고 있다는 것을 상기 시켜줄 것입니다! 지금 바로 잡아 보자.</p>
 <h4 id="main안의-run에서-반환되는-에러-처리하기"><a class="header" href="#main안의-run에서-반환되는-에러-처리하기"><code>main</code>안의 <code>run</code>에서 반환되는 에러 처리하기</a></h4>
 <p>우리는 항목 12-10의 <code>Config::new</code>를 사용하여 오류를 처리하는 방식과 비슷한 방법을 사용하여 오류를 검사하고 멋지게 처리합니다. 그러나 약간의 차이점이 있습니다.</p>
 <p><span class="filename">Filename: src/main.rs</span></p>
