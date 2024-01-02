@@ -1,3 +1,7 @@
+> **이 문서는 2판 번역본입니다.**
+>
+> 최신 2021 에디션 문서는 **[https://doc.rust-kr.org](https://doc.rust-kr.org)** 에서 확인하실 수 있습니다.
+
 ## `cargo install` 을 이용해 Crates.io 에서 바이너리 설치하기
 
 `cargo install` 명령어는 여러분이 로컬에서 바이너리 크레이트를 설치하고 사용할 수 있도록 해줍니다.

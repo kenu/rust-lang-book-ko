@@ -1,3 +1,7 @@
+> **이 문서는 2판 번역본입니다.**
+>
+> 최신 2021 에디션 문서는 **[https://doc.rust-kr.org](https://doc.rust-kr.org)** 에서 확인하실 수 있습니다.
+
 ## `pub`으로 가시성(visibility) 제어하기
 
 우리는 `network`와 `network::server` 코드를 각각 *src/network/mod.rs*와

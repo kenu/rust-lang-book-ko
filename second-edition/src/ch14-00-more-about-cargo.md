@@ -1,3 +1,7 @@
+> **이 문서는 2판 번역본입니다.**
+>
+> 최신 2021 에디션 문서는 **[https://doc.rust-kr.org](https://doc.rust-kr.org)** 에서 확인하실 수 있습니다.
+
 # Cargo 와 Crates.io 더 알아보기
 
 지금까지 우린 빌드, 실행, 코드 테스트등 Cargo 의 가장 기본적인 기능만

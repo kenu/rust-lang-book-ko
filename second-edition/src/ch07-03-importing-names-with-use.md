@@ -1,3 +1,7 @@
+> **이 문서는 2판 번역본입니다.**
+>
+> 최신 2021 에디션 문서는 **[https://doc.rust-kr.org](https://doc.rust-kr.org)** 에서 확인하실 수 있습니다.
+
 ## 이름 가져오기 (Importing Names)
 
 우리는 Listing 7-6에서 보시는 것과 같이 `nested_modules` 함수를 호출하는 것처럼,

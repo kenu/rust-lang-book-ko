@@ -1,3 +1,7 @@
+> **이 문서는 2판 번역본입니다.**
+>
+> 최신 2021 에디션 문서는 **[https://doc.rust-kr.org](https://doc.rust-kr.org)** 에서 확인하실 수 있습니다.
+
 ## `RefCell<T>`와 내부 가변성 패턴
 
 *내부 가변성 (interior mutability)* 은 어떤 데이터에 대한 불변 참조자가 있을
