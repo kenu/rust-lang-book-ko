@@ -173,7 +173,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="테스트-주도-개발로-라이브러리의-기능-개발하기"><a class="header" href="#테스트-주도-개발로-라이브러리의-기능-개발하기">테스트 주도 개발로 라이브러리의 기능 개발하기</a></h2>
+                        <blockquote>
+<p><strong>이 문서는 2판 번역본입니다.</strong></p>
+<p>최신 2021 에디션 문서는 <strong><a href="https://doc.rust-kr.org">https://doc.rust-kr.org</a></strong> 에서 확인하실 수 있습니다.</p>
+</blockquote>
+<h2 id="테스트-주도-개발로-라이브러리의-기능-개발하기"><a class="header" href="#테스트-주도-개발로-라이브러리의-기능-개발하기">테스트 주도 개발로 라이브러리의 기능 개발하기</a></h2>
 <p><em>src/lib.rs</em>으로 로직을 추출하고 <em>src/main.rs</em>에 인수 수집 및 에러 처리를 남겨 두었으므로 우리의 핵심 기능 코드에 대한 테스트를 작성하는 것이 훨씬 쉬워졌습니다. 커맨드라인에서 바이너리를 실행할 필요없이 다양한 인수를 사용하여 함수를 직접 호출하고 반환 값을 확인할 수 있습니다. 자신이 만든 <code>Config::new</code>와 <code>run</code>함수의 기능에 대해 몇 가지 테스트를 작성하면서 자유도를 느껴보세요. </p>
 <p>이 섹션에서는 TDD(Test Driven Development) 프로세스에 따라 <code>minigrep</code>에 검색 로직을 추가합니다. 해당 소프트웨어 개발 기법은 다음의 단계를 따릅니다:</p>
 <ol>
