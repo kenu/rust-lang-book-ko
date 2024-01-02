@@ -8945,7 +8945,7 @@ test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out
 간섭을 일으켰기 때문입니다. 한 가지 해결책은 각 테스트가 서로 다른 파일을 쓰도록 확실히 하는 것일 겁니다;
 또 다른 해결책은 테스트를 한 번에 하나씩만 실행하는 것입니다.</p>
 <p>만일 여러분이 테스트들을 병렬적으로 실행하고 싶지 않을 경우, 혹은 여러분이 사용되는 스레드의 개수에
-대한 더 정밀한 제어를 하고 싶을 경우, 여러분은 <code>--test-threads</code> 플리그와 테스트 바이너리에서
+대한 더 정밀한 제어를 하고 싶을 경우, 여러분은 <code>--test-threads</code> 플래그 테스트 바이너리에서
 사용하고 싶은 스레드 개수를 넘길 수 있습니다. 다음 예제를 봅시다:</p>
 <pre><code class="language-text">$ cargo test -- --test-threads=1
 </code></pre>
