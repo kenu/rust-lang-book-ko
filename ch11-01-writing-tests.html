@@ -479,7 +479,7 @@ test result: FAILED. 1 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out
 할 수도 있습니다. 그러나 이러한 테스트를 더 편리하게 수행해주는 표준 라이브러리가 제공하는 한 쌍의
 매크로 - <code>assert_eq!</code>와 <code>assert_ne!</code> - 가 있습니다. 이 매크로들은 각각 동치(equality)와
 부동(inequality)을 위해 두 인자를 비교합니다. 또한 이들은 만일 단언에 실패한다면 두 값을 출력해
-주는데, 이는 <em>왜</em> 테스트가 실패했는지를 포기 더 쉬워집니다; 반면, <code>assert!</code>는 <code>==</code> 표현식에 대해
+주는데, 이는 <em>왜</em> 테스트가 실패했는지를 보기 더 쉬워집니다; 반면, <code>assert!</code>는 <code>==</code> 표현식에 대해
 <code>false</code> 값을 얻었음을 가리킬 뿐, 어떤 값이 <code>false</code>값을 야기했는지는 알려주지 않습니다.</p>
 <p>Listing 11-7와 같이, 파라미터에 <code>2</code>를 더하여 결과를 반환하는 <code>add_two</code> 함수를 작성합시다. 그 후
 <code>assert_eq!</code> 매크로를 이용하여 이 함수를 테스트하겠습니다.</p>
