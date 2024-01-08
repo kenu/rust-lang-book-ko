@@ -16,7 +16,7 @@
 ### 빌드된 문서 바로가기
 
 - [2nd edition: 완역](https://rinthel.github.io/rust-lang-book-ko)
-- [2021 edition: 번역중](https://rust-kr.github.io/doc.rust-kr.org)
+- [2021 edition: 완역](https://doc.rust-kr.org)
 
 ### 환영합니다!
 
